@@ -33,9 +33,9 @@ int main()
 
 	int const * ptr;
 
-	ptr=&x;      //values accpted
+	ptr=&x;      //address  accepted
 
-	//*ptr=10;   address not accepted
+	//*ptr=10;   values not accepted
 
 	printf("%d\n",x);
 
