@@ -1,0 +1,17 @@
+
+//Difference between strcpy,memcpy and memmove//
+
+strcpy, memcpy, and memmove are functions in C language that are used to copy data from one memory location to another.
+
+
+strcpy: The strcpy function is used to copy a string from one memory location to another. It takes two arguments: the destination string pointer and the source string pointer. It copies the string from the source to the destination until it encounters the null character.
+
+
+memcpy: The memcpy function is used to copy a block of memory from one location to another. It takes three arguments: the destination pointer, the source pointer, and the number of bytes to copy. It copies the specified number of bytes from the source to the destination.
+
+
+memmove: The memmove function is similar to memcpy, but it can handle overlapping memory blocks. It takes three arguments: the destination pointer, the source pointer, and the number of bytes to copy. If the memory blocks overlap, memmove ensures that the data is copied correctly by temporarily storing the data in a temporary buffer.
+
+
+In summary, strcpy is used for copying null-terminated strings, memcpy is used for copying a block of memory, and memmove is used for copying a block of memory that may overlap with the destination.
+
